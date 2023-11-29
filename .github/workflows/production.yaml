@@ -18,7 +18,7 @@ jobs:
       VARIABLE: ${{ vars.HELLO_VAR }}
 
     steps:
-      - run: echo "Guess what! $VARIABLE $HELLO_VAR"
+      - run: echo "Guess what! $VARIABLE"
       - run: echo "Also... $SUPABASE_PROJECT_ID"
 
       - uses: actions/checkout@v3
