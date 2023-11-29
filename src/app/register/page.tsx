@@ -77,7 +77,7 @@ export default async function Login({
         <input
           className="mb-6 rounded-sm border bg-inherit px-4 py-2"
           type="tel"
-          pattern="[0-9]{3}-[0-9]{32}-[0-9]{4}"
+          pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
           name="lastName"
           placeholder="555-555-5555"
           required
